@@ -1,0 +1,32 @@
+/**
+* Typing animation for text
+*/
+@-webkit-keyframes typing {
+    from { width: 0 }
+    to { width: 7%}
+}
+
+@-moz-keyframes typing {
+    from { width: 0 }
+    to { width:7% }
+}
+
+@-webkit-keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: #FFF }
+}
+
+@-moz-keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: #FFF }
+}
+.typing{
+     -webkit-animation: typing 3s steps(30, end), /* # of steps = # of characters */
+                        blink-caret 1s step-end infinite;
+    -moz-animation: typing 3s steps(30, end), /* # of steps = # of characters */
+                        blink-caret 1s step-end infinite;
+    width: 7%;
+    white-space:nowrap;
+    overflow:hidden;
+    border-right: .1em solid #fff;
+}

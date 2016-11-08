@@ -1,0 +1,90 @@
+.parallax{
+  /* background-image: url("assets/images/background1.jpg"); -- set in the calling container */
+   min-height: 500px; 
+   background-attachment: fixed;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+ }
+
+/**
+* Position & Display classes
+*/
+.pos-relative{position: relative;}
+.pos-absolute{position: absolute;}
+.pos-fixed{
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+}
+
+.dis-flex{display: flex;}
+.dis-none{display: none;}
+.flex-col{flex-direction: column;}
+.flex-col-v{flex-direction: column-reverse;}
+.flex-row-v{flex-direction: row-reverse;}
+
+/**
+* Font Family
+*/
+.font-raleway{font-family: "Raleway";}
+.font-roboto{font-family: "Roboto";}
+ /**
+ * Font Color Classes
+ */
+ .fg-white{color: white;}
+ .fg-lightblack{color: #222;}
+ .fg-crimson{color: crimson;}
+ .fg-limegreen{color: limegreen;}
+
+/**
+* Background Color Classes
+*/
+.bg-seagreen{background-color: seagreen;}
+.bg-white{background-color: #FFF;}
+.bg-gray{background-color: #eee;}
+.bg-transparent{background-color: transparent;}
+
+/**
+* Background color transparent Classes
+*/
+.bg-black-40{background-color:rgba(0,0,0,0.40);}
+
+/**
+* Padding
+*/
+.padding5{padding:5px;}
+.padding10{padding:10px;}
+.padding15{padding:15px;}
+.padding20{padding:20px;}
+.padding25{padding:25px;}
+
+ /**
+ * Alignment
+ */
+ .valign-bottom{vertical-align: bottom;}
+
+ /**
+ * Text Justification
+ */
+ .text-justify{text-align: justify;}
+
+/**
+* View Port height and width
+*/
+.vp-height{height: 100vh;}
+.vp-width{width: 100vw;}
+
+ /**
+ * Templates and Layouts
+ */
+ .fullscreen-layout{
+     height: 100vh;
+     width: 100vh;
+ }
+
+ /**
+ * Text alignment
+ */
+ .align-center{text-align: center;}
